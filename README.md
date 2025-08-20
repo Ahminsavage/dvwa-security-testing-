@@ -1,4 +1,4 @@
-# 🔐 Web Application Security Testing (DVWA)
+# Web Application Security Testing (DVWA)
 
 This project documents a hands-on vulnerability assessment of the **Damn Vulnerable Web Application (DVWA)** using industry-standard tools and manual testing methods.
 
@@ -39,4 +39,5 @@ sqlmap -u "http://127.0.0.1/DVWA/vulnerabilities/sqli/?id=1&Submit=Submit" \
 
 🔸 Nikto Scan
 nikto -h http://127.0.0.1 -o dvwa-nikto-report.html -Format html
+
 
