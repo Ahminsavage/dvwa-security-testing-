@@ -8,7 +8,7 @@ This project documents a hands-on vulnerability assessment of the **Damn Vulnera
 - **Project**: Vulnerability Assessment on DVWA  
 - **Tools Used**: SQLMap, Nikto, Manual (Browser) Testing  
 - **Environment**: Kali Linux 2025  
-- **Prepared by**: RAWLINGS ODIERO  
+- **Prepared by**: AHMIN SAVAGE  
 - **Date**: August 2025  
 - **Task**: FutureInterns – Task 1  
 
@@ -39,5 +39,6 @@ sqlmap -u "http://127.0.0.1/DVWA/vulnerabilities/sqli/?id=1&Submit=Submit" \
 
 🔸 Nikto Scan
 nikto -h http://127.0.0.1 -o dvwa-nikto-report.html -Format html
+
 
 
